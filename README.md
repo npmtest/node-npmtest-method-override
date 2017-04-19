@@ -1,4 +1,7 @@
-# test coverage for  [method-override (v2.3.8)](https://github.com/expressjs/method-override#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-method-override.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-method-override) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-method-override.svg)](https://travis-ci.org/npmtest/node-npmtest-method-override)
+# npmtest-method-override
+
+#### test coverage for  [method-override (v2.3.8)](https://github.com/expressjs/method-override#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-method-override.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-method-override) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-method-override.svg)](https://travis-ci.org/npmtest/node-npmtest-method-override)
+
 #### Override HTTP verbs
 
 [![NPM](https://nodei.co/npm/method-override.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/method-override)
