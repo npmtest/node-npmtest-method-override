@@ -1,6 +1,6 @@
 # npmtest-method-override
 
-#### test coverage for  [method-override (v2.3.8)](https://github.com/expressjs/method-override#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-method-override.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-method-override) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-method-override.svg)](https://travis-ci.org/npmtest/node-npmtest-method-override)
+#### basic test coverage for  [method-override (v2.3.8)](https://github.com/expressjs/method-override#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-method-override.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-method-override) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-method-override.svg)](https://travis-ci.org/npmtest/node-npmtest-method-override)
 
 #### Override HTTP verbs
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-method-override/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-method-override/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-method-override/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-method-override/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-method-override/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-method-override/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-method-override/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-method-override/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-method-override/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-method-override/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-method-override/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-method-override/build/coverage.html/index.html)
 
@@ -112,7 +112,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --reporter dot test/",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks --reporter spec test/"
     },
-    "version": "2.3.8"
+    "version": "2.3.8",
+    "bin": {}
 }
 ```
 
